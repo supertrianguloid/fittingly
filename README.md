@@ -2,6 +2,7 @@ _Linear Fitting for Typst_
 
 This package performs simple weighted linear fits in Typst.
 
+
 ## Documentation
 
 ```typ
@@ -26,3 +27,7 @@ Performs a weighted least squares fit to the line y = a + bx, returning a fit di
 ```
 
 Calculates a confidence band from the fit dictionary, which can be used in plots or further calculations. See `example.typ` for an example which uses [Lilaq](https://lilaq.org) to plot the confidence band.
+
+## Planned Features
+- Orthogonal Distance Regression (ODR)
+- Nonlinear fitting (Levenberg–Marquardt)
